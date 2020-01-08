@@ -39,7 +39,7 @@ public class ArticleService {
     private IdWorker idWorker;
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    private RedisTemplate redisTemplate ;
 
     /**
      * 查询全部列表

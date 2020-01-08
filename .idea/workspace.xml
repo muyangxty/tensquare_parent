@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83b0f11-7a80-43da-8cc2-c2946917845b" name="Default Changelist" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_gathering/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -208,7 +207,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\MuYang\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -222,7 +221,9 @@
       <workItem from="1578357192181" duration="28489000" />
       <workItem from="1578451257470" duration="3568000" />
       <workItem from="1578457575402" duration="11681000" />
-      <workItem from="1578473788794" duration="697000" />
+      <workItem from="1578473788794" duration="928000" />
+      <workItem from="1578475558129" duration="319000" />
+      <workItem from="1578475886482" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578471959276</created>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578471959276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1578475096511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578475096511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,10 +254,10 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-948" y="599" key="#Assign_Data_Sources/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578324038456" />
-    <state x="-948" y="599" key="#Notifications" timestamp="1578321077779">
+    <state x="-948" y="599" key="#Notifications" timestamp="1578475124307">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-948" y="599" key="#Notifications/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578321077779" />
+    <state x="-948" y="599" key="#Notifications/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578475124307" />
     <state x="-948" y="599" key="#Project_Structure" timestamp="1578390828794">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -264,19 +272,23 @@
     </state>
     <state x="-735" y="656" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578363359571" />
     <state x="613" y="363" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578331046209" />
-    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578473815515">
+    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578476206904">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578473815515" />
+    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476206904" />
     <state width="456" height="843" key="DebuggerActiveHint" timestamp="1578366160703">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state width="456" height="843" key="DebuggerActiveHint/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578366160703" />
     <state width="465" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578362252572" />
-    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1578368100046">
+    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1578475782266">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-760" y="695" key="FileChooserDialogImpl/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578368100046" />
+    <state x="-760" y="695" key="FileChooserDialogImpl/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578475782266" />
+    <state x="-714" y="840" key="Gitee.ShareDialog" timestamp="1578476063229">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-714" y="840" key="Gitee.ShareDialog/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476063229" />
     <state x="-719" y="853" width="382" height="173" key="Github.CreateGistDialog" timestamp="1578471748441">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -361,14 +373,14 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-726" y="874" key="ReplaceDuplicatesPrompt/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578395480520" />
-    <state x="-1040" y="582" key="SettingsEditor" timestamp="1578475071703">
+    <state x="-1040" y="582" key="SettingsEditor" timestamp="1578476128911">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-1040" y="582" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578475071703" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578471962810">
+    <state x="-1040" y="582" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476128911" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578475103526">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578471962810" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578475103526" />
     <state x="-705" y="628" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578393890967">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
