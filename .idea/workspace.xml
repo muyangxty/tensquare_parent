@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83b0f11-7a80-43da-8cc2-c2946917845b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/SpitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +230,7 @@
       <workItem from="1578457575402" duration="11681000" />
       <workItem from="1578473788794" duration="928000" />
       <workItem from="1578475558129" duration="319000" />
-      <workItem from="1578475886482" duration="499000" />
+      <workItem from="1578475886482" duration="2720000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578471959276</created>
@@ -246,11 +253,29 @@
       <option name="project" value="LOCAL" />
       <updated>1578476264738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试提交">
+      <created>1578476457162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578476457162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -280,10 +305,10 @@
     </state>
     <state x="-735" y="656" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578363359571" />
     <state x="613" y="363" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578331046209" />
-    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578476263159">
+    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578476456038">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476263159" />
+    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476456038" />
     <state width="456" height="843" key="DebuggerActiveHint" timestamp="1578366160703">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -385,10 +410,10 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-1040" y="582" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476128911" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578476268625">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578476460476">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476268625" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476460476" />
     <state x="-705" y="628" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578393890967">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -397,10 +422,10 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-810" y="694" width="540" height="501" key="extract.method.dialog/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578395477851" />
-    <state x="-1080" y="635" key="new project wizard" timestamp="1578469331347">
+    <state x="-1080" y="635" key="new project wizard" timestamp="1578478329368">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-1080" y="635" key="new project wizard/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578469331347" />
+    <state x="-1080" y="635" key="new project wizard/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578478329368" />
     <state x="-884" y="450" key="run.anything.popup" timestamp="1578395136884">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -410,5 +435,9 @@
     </state>
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578473675627" />
     <state x="361" y="241" width="1195" height="376" key="search.everywhere.popup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578470705242" />
+    <state x="-818" y="852" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1578476619825">
+      <screen x="-1080" y="0" width="1080" height="1880" />
+    </state>
+    <state x="-818" y="852" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476619825" />
   </component>
 </project>
