@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83b0f11-7a80-43da-8cc2-c2946917845b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/controller/SpitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/mapper/SpitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/pojo/Spit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/service/ISpitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/service/impl/SpitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquares/spit/controller/BaseExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_spit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +224,7 @@
       <workItem from="1578457575402" duration="11681000" />
       <workItem from="1578473788794" duration="928000" />
       <workItem from="1578475558129" duration="319000" />
-      <workItem from="1578475886482" duration="12228000" />
+      <workItem from="1578475886482" duration="12529000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578471959276</created>
@@ -274,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578478684115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="文章评论">
+      <created>1578488544208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578488544208</updated>
+    </task>
+    <task id="LOCAL-00007" summary="吐槽微服务">
+      <created>1578488586930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578488586930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +296,9 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="测试提交" />
     <MESSAGE value="创建吐槽微服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建吐槽微服务" />
+    <MESSAGE value="文章评论" />
+    <MESSAGE value="吐槽微服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="吐槽微服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-948" y="599" key="#Assign_Data_Sources" timestamp="1578324038456">
@@ -320,10 +323,10 @@
     </state>
     <state x="-735" y="656" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578485257080" />
     <state x="613" y="363" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578331046209" />
-    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578488541698">
+    <state x="-940" y="532" key="CommitChangelistDialog2" timestamp="1578488584881">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488541698" />
+    <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488584881" />
     <state width="456" height="843" key="DebuggerActiveHint" timestamp="1578366160703">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -429,10 +432,10 @@
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
     <state x="-1040" y="582" key="SettingsEditor/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578476128911" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578488548677">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1578488588845">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488548677" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488588845" />
     <state x="-705" y="628" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578393890967">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
