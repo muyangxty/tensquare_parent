@@ -29,7 +29,7 @@ public class ArticleController {
      * @param article
      * @return
      */
-    @PostMapping()
+    @PostMapping("")
     public Result save(@RequestBody Article article) {
         articleService.save(article);
         return new Result(true, StatusCode.OK, Message.SAVE_SUCCESS);
