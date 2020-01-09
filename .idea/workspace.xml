@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f83b0f11-7a80-43da-8cc2-c2946917845b" name="Default Changelist" comment="修改统一异常处理">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/Mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f83b0f11-7a80-43da-8cc2-c2946917845b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +251,7 @@
       <workItem from="1578475886482" duration="14001000" />
       <workItem from="1578490823118" duration="2258000" />
       <workItem from="1578501285695" duration="69000" />
-      <workItem from="1578539757155" duration="6302000" />
+      <workItem from="1578539757155" duration="6806000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578471959276</created>
@@ -330,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578500121021</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="代码逻辑完善">
+      <created>1578566386589</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578566386589</updated>
+    </task>
+    <task id="LOCAL-00011" summary="搜索微服务">
+      <created>1578566529930</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578566529930</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +367,9 @@
     <MESSAGE value="吐槽微服务" />
     <MESSAGE value="增加统一异常处理" />
     <MESSAGE value="修改统一异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改统一异常处理" />
+    <MESSAGE value="代码逻辑完善" />
+    <MESSAGE value="搜索微服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索微服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-948" y="599" key="#Assign_Data_Sources" timestamp="1578324038456">
@@ -392,11 +394,11 @@
     </state>
     <state x="-735" y="656" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578485257080" />
     <state x="613" y="363" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578331046209" />
-    <state x="249" y="221" key="CommitChangelistDialog2" timestamp="1578566377960">
+    <state x="249" y="221" key="CommitChangelistDialog2" timestamp="1578566527928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-940" y="532" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488810352" />
-    <state x="249" y="221" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578566377960" />
+    <state x="249" y="221" key="CommitChangelistDialog2/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578566527928" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1578501217638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -410,10 +412,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="378" height="442" key="Diff.GoToChangePopup/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578500235233" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578500666295">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1578566540465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578500666295" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578566540465" />
     <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1578475782266">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
@@ -519,11 +521,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="200" height="461" key="SqlResolveConfigurable/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578500834301" />
-    <state x="235" y="372" key="Vcs.Push.Dialog.v2" timestamp="1578566406156">
+    <state x="235" y="372" key="Vcs.Push.Dialog.v2" timestamp="1578566544974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@-1080.0.1080.1880" timestamp="1578488813200" />
-    <state x="235" y="372" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578566406156" />
+    <state x="235" y="372" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.0.1080.1880@0.0.1920.1040" timestamp="1578566544974" />
     <state x="-705" y="628" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578393890967">
       <screen x="-1080" y="0" width="1080" height="1880" />
     </state>
