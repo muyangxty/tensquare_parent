@@ -7,6 +7,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**
+ * 搜索文章持久层接口
+ *
  * @author MuYang
  * @date 2020/1/9
  */
