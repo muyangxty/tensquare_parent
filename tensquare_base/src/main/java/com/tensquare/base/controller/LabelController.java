@@ -37,6 +37,9 @@ public class LabelController {
     @GetMapping()
     public Result findAll() {
         List<Label> labels = labelService.findAll();
+        if (CollectionUtils.isEmpty(labels)){
+            return new Result(false, StatusCode.ERROR, Message.NONE_RESULT);
+        }
         return new Result(true, StatusCode.OK, Message.SUCCESS, labels);
     }
 
@@ -100,7 +103,7 @@ public class LabelController {
         List<Label> labelList = labelService.findSearch(label);
         //检查查询结果
         if (CollectionUtils.isEmpty(labelList)) {
-            return new Result(true, StatusCode.OK, Message.NONE_RESULT);
+            return new Result(false, StatusCode.ERROR, Message.NONE_RESULT);
         }
         return new Result(true, StatusCode.OK, Message.SUCCESS, labelList);
     }
@@ -116,6 +119,9 @@ public class LabelController {
     @PostMapping("search/{page}/{size}")
     public Result pageQuery(@RequestBody Label label, @PathVariable int page, @PathVariable int size) {
         Page<Label> pageLabel = labelService.pageQuery(label, page, size);
+        if (CollectionUtils.isEmpty(pageLabel.getContent())){
+            return new Result(false, StatusCode.ERROR, Message.NONE_RESULT);
+        }
         return new Result(true, StatusCode.OK, Message.SUCCESS, new PageResult<>(pageLabel.getTotalElements(), pageLabel.getContent()));
     }
 
